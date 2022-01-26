@@ -1,0 +1,266 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: #f1f1f1;
+    padding-bottom: 90px;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.Cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.Cabeçalho .coluna{}
+
+.Cabeçalho figure{}
+.Cabeçalho figure img{
+    width: 90px;
+}
+
+.FormularioPesquisa{
+    display: flex;
+    height: 40px;
+}
+.FormularioPesquisa input{
+    width: 500px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.FormularioPesquisa button{
+    width: 60px;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+}
+.FormularioPesquisa button img{
+    width: 18px;
+}
+
+.imagemUsuário{}
+.Cabeçalho .imagemUsuário img{
+    width: 35px;
+    border-radius: 100%;
+}
+
+.destaqueCanal{
+    background-image: url(./img/destaque.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-top: -5px;
+    
+}
+
+.seçãoCanal{
+    background-color: #fff;
+}
+.seçãoCanal .container{}
+
+.detalheCanal{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    
+}
+.detalheCanal figure{
+    margin-right: 20px;
+}
+.detalheCanal figure img{
+    border-radius: 100%;
+    width: 80px;
+}
+
+.detalheCanal_info{}
+.detalheCanal_info h1{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.detalheCanal_info p{
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.MenusNavegaçãoCanal{}
+.MenusNavegaçãoCanal ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.MenusNavegaçãoCanal ul li{}
+.MenusNavegaçãoCanal ul li a{
+    color: #606060;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15;
+    margin-top: -30px;
+    
+}
+.MenusNavegaçãoCanal ul button{
+    background-color: transparent;
+    border: none;
+}
+.MenusNavegaçãoCanal ul li button img{
+    width: 18px;
+}
+
+
+.containerDeVideosDestaque{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.containerDeVideosDestaque .coluna{}
+.containerDeVideosDestaque .coluna--esquerda{
+    width: 700px;
+}
+.containerDeVideosDestaque .coluna--direita{
+    width: 500px;   
+}
+
+.VideosDestaque{}
+.VideosDestaque h2{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    margin-left: 59px;
+}
+
+.videosDestaques_Lista{
+    margin-left: -20px;
+}
+.videosDestaques_Lista li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.videosDestaques_Lista li figure{
+    margin-right: 20px;
+}
+.videosDestaques_Lista li figure img{
+    width: 200px;
+}
+.videosDestaques_Lista li div{}
+.videosDestaques_Lista li div h3{
+    font-size: 15px;
+    margin-bottom: -1px;
+}
+.videosDestaques_Lista li div span{
+    font-size: 13px;
+}
+.videosDestaques_Lista li div p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+.buttonAdicionarAFila{
+    background-color: #d9d9d9;
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 2px 8px;
+    color: #606060;
+    cursor: pointer;
+}
+
+
+.FilaDeReprodução{
+    background-color: #f8f8f8;
+}
+
+.adcionarAFila_cabeçalho{
+    background-color: #fff;
+    margin-left: 75px;
+}
+.adcionarAFila_cabeçalho h3{
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+.adcionarAFila_cabeçalho p{
+    font-size: 13px;
+    
+}
+
+.adicionarAFila_lista{
+    padding: 20px 20px;
+    height: 490px;
+    overflow-y: scroll;
+}
+.adicionarAFila_lista li{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: -5px;
+}
+.adicionarAFila_lista li figure{
+    margin-right: 10px;
+}
+.adicionarAFila_lista li figure img{
+    width: 100px;
+}
+.adicionarAFila_lista li div{}
+.adicionarAFila_lista li div h3{
+    font-size: 15px;
+}
+
+
+.seçãoTodososVideos{}
+
+.seçãoTodososVideos h2{
+    text-transform: uppercase;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 200px;
+
+}
+.seçãoTodososVideos h2 img{
+    margin-right: 10px;
+    width: 20px;
+}
+
+.seçãoTodososVideos_Lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.seçãoTodososVideos_Lista li{
+    width: 200px;
+}
+.seçãoTodososVideos_Lista li figure{}
+.seçãoTodososVideos_Lista li figure img{
+    width: 100%;
+}
+
+.seçãoTodososVideos_Lista li div{}
+.seçãoTodososVideos_Lista li div h3{
+font-size: 11px;
+}
+.seçãoTodososVideos_Lista li div span{
+    font-size: 10px;
+}
+.seçãoTodososVideos_Lista li div p{
+    display: none;
+}
+.seçãoTodososVideos_Lista li div button{
+    margin-top: 10px;
+}
